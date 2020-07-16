@@ -1,0 +1,95 @@
+.gallery {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 500;
+    color: #91939E;
+    background-color: #F7F7F7;
+    padding: 29px 0 175px;
+}
+
+.galleryContainer {
+    width: 86vw;
+    margin: 0 auto;
+}
+
+
+/*galleryMenu*/
+.galleryNav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.galleryMenu {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.galleryMenu > li {
+    margin: 0 5px 25px 0;
+}
+
+.galleryMenuLink {
+    padding: 0.6rem 2rem;
+    background-color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 7px;
+    border: 1px solid transparent;
+    color: #91939E;
+    font-size: 0.75rem;
+}
+
+.galleryMenuLink:hover {
+    border: 1px solid #FC6228;
+}
+
+.activeGalleryMenuLink {
+    background-color: #fff;
+    border: 1px solid #FC6228;
+}
+
+/*galleryMenu End*/
+.searchesSection{
+    text-align: center;
+    margin-top: 80px;
+    height: 530px;
+}
+
+
+.mostInspiringImages{
+    padding: 140px 0 0 0 ;
+    text-align: center;
+}
+
+.earningSection{
+    padding: 115px 0;
+    width: 86vw;
+    margin: 0 auto;
+    background: linear-gradient(to right, #F2211A, #FC6228);
+    text-align: center;
+}
+
+.earningTitle{
+    font-size: 35px;
+    font-weight: 400;
+    color: #fff;
+}
+.earningIntro{
+    font-size: 20px;
+    color: #FBA290;
+    font-weight: 400;
+}
+.earningBtn{
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #161C34;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    width: 155px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 40px;
+}

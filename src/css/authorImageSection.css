@@ -1,0 +1,147 @@
+.authorImagesSection{
+    padding-top: 145px;
+    text-align: center;
+}
+.intro{
+    font-size: 20px;
+    color: #8A8D99;
+    font-weight: 400;
+}
+.title{
+    font-size: 35px;
+    color: #161C34;
+    font-weight: 500;
+}
+.authorsBlock{
+    width: 83vw;
+    display: flex;
+    justify-content: space-around;
+    margin: 110px auto 220px;
+    flex-wrap: wrap;
+}
+.authorBlock{
+    width: 12rem;
+    text-align: center;
+    margin: 0.5rem
+}
+
+.imagesBlock{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 12rem;
+    height: 12rem;
+    position: relative;
+}
+.exampleImage > img{
+    width: 100%;
+    height: 100%;
+}
+.exImg1{
+    border-radius: 0.5rem 0 0 0;
+}
+.exImg2{
+    border-radius: 0 0.5rem 0 0 ;
+}
+.exImg3{
+    border-radius: 0 0 0 0.5rem;
+}
+.exImg4{
+    border-radius: 0 0 0.5rem 0;
+}
+.authorImage{
+    position: absolute;
+    top: calc(100% - 45px);
+    left: calc(50% - 40px);
+    border-radius: 50%;
+    width: 68px;
+    height: 68px;
+    border: 6px solid #fff;
+}
+.authorImage > img{
+    width: 100%;
+    height: 100%;
+}
+.authorTitle{
+    color: #161C34;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+.itemsQuantity{
+    color: #8A8D99;
+    font-size: 15px;
+}
+
+.container{
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.titleBlock{
+    display: flex;
+    flex-direction: column;
+    height: 140px;
+    justify-content: space-between;
+}
+.authorText{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 32vw;
+    text-align: left;
+    color: #45495D;
+    font-size: 19px;
+    height: 400px;
+    overflow: auto;
+    letter-spacing: 1px;
+    padding: 0.5rem
+}
+
+.textImageSection{
+    padding: 115px 0 85px;
+}
+.sectionImage{
+    max-width: 500px;
+    border-radius: 5px;
+}
+.sectionImage > img{
+    width: 100%;
+}
+.sectionText{
+    padding: 50px 0 40px;
+    height: unset;
+}
+.learnMoreBtn{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #161C34;
+    letter-spacing: 0.1rem;
+    display: flex;
+    align-items: center;
+}
+.learnMoreBtn > span{
+    text-align: left;
+    margin-right: 1rem;
+}
+.textSide{
+    text-align: left;
+}
+.learnMoreBtnIcon{
+    color: #FC6228;
+}
+
+@media (max-width: 1440px) {
+    .textSide{
+        margin: 1rem 0 0 1rem;
+    }
+}
+@media (max-width: 1173px) {
+    .textSide{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
